@@ -24,9 +24,9 @@
 
     <!-- Extra -->
     <remove-project name="android_vendor_dot" />
-    <project path="vendor/dot" name="Packages-APPS/android_vendor_dot_DotOS " remote="all" revision="dot12.1" />
+    <project path="vendor/dot" name="Packages-APPS/android_vendor_dot_DotOS" remote="all" revision="dot12.1" />
     <remove-project name="android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="Packages-APPS/android_packages_apps_Settings_DotOS " remote="all" revision="dot12.1" />
+    <project path="packages/apps/Settings" name="Packages-APPS/android_packages_apps_Settings_DotOS" remote="all" revision="dot12.1" />
     <remove-project name="LineageOS/android_packages_resources_devicesettings" />
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="all" revision="lineage-19.1" />
 </manifest>
