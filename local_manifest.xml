@@ -11,6 +11,7 @@
     <project path="device/xiaomi/onclite" name="NeZoX-star/device_xiaomi_onclite" remote="all" revision="lineage" />
     <project path="vendor/xiaomi/onclite" name="NeZoX-star/vendor_xiaomi_onclite" remote="all" revision="12" />
     <project path="kernel/xiaomi/onclite" name="NeZoX-star/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
+     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
     <!-- HALs -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
