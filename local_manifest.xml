@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+     <!-- Remotes -->
+    <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" /> 
+
+    
+    <!-- Sync trees -->
+    <project path="device/xiaomi/onclite" name="NeZoX-star/device_xiaomi_onclite" remote="all" revision="dot-12" />
+    <project path="vendor/xiaomi/onclite" name="NeZoX-star/vendor_xiaomi_onclite" remote="all" revision="12" />
+    <project path="kernel/xiaomi/onclite" name="NeZoX-star/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
+    
+    <!-- HALs -->
+    <remove-project name="android_hardware_qcom-caf_msm8996_audio" />
+    <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="all" revision="lineage-19.1-caf-msm8996" />
+    <remove-project name="android_hardware_qcom-caf_msm8996_media" />
+    <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="all" revision="lineage-19.1-caf-msm8996" />
+    <remove-project name="android_hardware_qcom-caf_msm8996_display" />
+    <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="all" revision="lineage-19.1-caf-msm8996" />
+    <remove-project name="android_hardware_qcom-caf_wlan" />
+    <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
+
+    <!-- Extra -->
+    <remove-project name="android_vendor_dot" />
+    <project path="vendor/dot" name="Packages-APPS/android_vendor_dot_DotOS " remote="all" revision="dot12.1" />
+    <remove-project name="android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="Packages-APPS/android_packages_apps_Settings_DotOS " remote="all" revision="dot12.1" />
+</manifest>
