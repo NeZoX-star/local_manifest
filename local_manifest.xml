@@ -25,7 +25,7 @@
 
     <!-- Extra -->
     <remove-project name="LineageOS/android_frameworks_base" />
-    <project path="frameworks/base" name="Packages-APPS/android_frameworks_base_LOS" remote="all" revision="lineage-19.1" />
+    <project path="frameworks/base" name="Packages-APPS/android_frameworks_base_LOS" remote="all" revision="los19" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="Packages-APPS/android_packages_apps_Settings" remote="all" revision="lineage-19.1" />
 </manifest>
