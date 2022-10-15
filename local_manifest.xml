@@ -23,5 +23,5 @@
     <remove-project name="LineageOS/android_hardware_qcom_wlan" />
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
      <remove-project name="LineageOS/android_system_libhidl" />
-    <project path="system/libhidl" name="Packages-APPS/android_system_libhidl_LOS" remote="all" revision="ineage-20.0" />
+    <project path="system/libhidl" name="Packages-APPS/android_system_libhidl_LOS" remote="all" revision="lineage-20.0" />
 </manifest>
