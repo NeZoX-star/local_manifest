@@ -15,11 +15,11 @@
     
     <!-- HALs -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="all" revision="lineage-20.0-caf-msm8996" />
+    <project path="hardware/qcom-caf/msm8996/audio" name="afterallafk/hardware_qcom-caf_msm8996_audio" remote="all" revision="13" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="all" revision="lineage-20.0-caf-msm8996" />
+    <project path="hardware/qcom-caf/msm8996/media" name="afterallafk/hardware_qcom-caf_msm8996_media" remote="all" revision="12" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="all" revision="lineage-20.0-caf-msm8996" />
+    <project path="hardware/qcom-caf/msm8996/display" name="afterallafk/hardware_qcom-caf_msm8996_display" remote="all" revision="13" />
     <remove-project name="LineageOS/android_hardware_qcom_wlan" />
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
      <remove-project name="LineageOS/android_system_libhidl" />
