@@ -11,7 +11,7 @@
     <project path="device/xiaomi/onclite" name="Redmi-7-Trees/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="vendor/xiaomi/onclite" name="Redmi-7-Trees/android_vendor_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="kernel/xiaomi/onclite" name="Redmi-7-Trees/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
-    <project path="prebuilts/clang/host/linux-x86" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
+    <project path="prebuilts/clang/host/linux-x86/clang-" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
     <!-- HALs -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
