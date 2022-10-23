@@ -32,5 +32,5 @@
     <project path="frameworks/av" name="Packages-APPS/android_frameworks_av" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="Packages-APPS/android_vendor_lineage" remote="all" revision="lineage-19.1" />
-    <project path="vendor/support" name="Packages-APPS/android_vendor_support" remote="all" revision="12" />
+    <project path="vendor/support" name="Sensei-Developer/android_vendor_support" remote="all" revision="12" />
 </manifest>
