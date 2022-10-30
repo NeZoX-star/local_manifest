@@ -10,7 +10,7 @@
     <!-- Sync trees -->
     <project path="device/xiaomi/onclite" name="Sensei-Developer/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="vendor/xiaomi/onclite" name="Redmi-7-Trees/android_vendor_xiaomi_onclite" remote="all" revision="lineage-19.1" />
-    <project path="kernel/xiaomi/onclite" name="Redmi-7-Trees/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
+    <project path="kernel/xiaomi/onclite" name="CraftRom/Chidori-Kernel_onclite" remote="all" revision="chidori" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
     <!-- HALs -->
@@ -26,8 +26,6 @@
      <!-- Extra -->
     <remove-project name="LineageOS/android_frameworks_base" />
     <project path="frameworks/base" name="onclite-lineage/android_frameworks_base" remote="all" revision="lineage-19.1" />
-    <remove-project name="LineageOS/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="onclite-lineage/android_packages_apps_Settings" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="onclite-lineage/android_vendor_lineage" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
