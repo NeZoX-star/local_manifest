@@ -22,15 +22,4 @@
     <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="all" revision="lineage-19.1-caf-msm8996" />
     <remove-project name="LineageOS/android_hardware_qcom_wlan" />
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
-     
-     <!-- Extra -->
-    <remove-project name="LineageOS/android_frameworks_base" />
-    <project path="frameworks/base" name="onclite-lineage/android_frameworks_base" remote="all" revision="lineage-19.1" />
-    <remove-project name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/lineage" name="onclite-lineage/android_vendor_lineage" remote="all" revision="lineage-19.1" />
-    <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-    <project path="packages/apps/Trebuchet" name="onclite-lineage/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1" />
-    <remove-project name="LineageOS/android_system_core" />
-    <project path="system/core" name="onclite-lineage/android_system_core" remote="all" revision="lineage-19.1" />
-    <project path="packages/apps/RepainterServicePriv" name="onclite-lineage/android_packages_apps_RepainterServicePriv" remote="all" revision="main" />
 </manifest>
