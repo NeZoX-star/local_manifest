@@ -8,20 +8,18 @@
 
     
     <!-- Sync trees -->
-    <project path="device/xiaomi/onclite" name="Redmi-7-Trees/device_xiaomi_onclite_13" remote="all" revision="base13" />
-    <project path="vendor/xiaomi/onclite" name="Redmi-7-Trees/1" remote="all" revision="13" />
-    <project path="kernel/xiaomi/onclite" name="Sensei-Developer/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
+    <project path="device/xiaomi/onclite" name="Sensei-Developer/device_xiaomi_onclite-1" remote="all" revision="lineage-20.0" />
+    <project path="vendor/xiaomi/onclite" name="ProjectBlaze-Devices/vendor_xiaomi_onclite" remote="all" revision="13" />
+    <project path="kernel/xiaomi/onclite" name="Redmi-7-Trees/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="all" revision="master" />
     
     <!-- HALs -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8996/audio" name="afterallafk/hardware_qcom-caf_msm8996_audio" remote="all" revision="13" />
+    <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="all" revision="lineage-20.0-caf-msm8996" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/msm8996/media" name="afterallafk/hardware_qcom-caf_msm8996_media" remote="all" revision="12" />
+    <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="all" revision="lineage-20.0-caf-msm8996" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/msm8996/display" name="afterallafk/hardware_qcom-caf_msm8996_display" remote="all" revision="13" />
+    <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="all" revision="lineage-20.0-caf-msm8996" />
     <remove-project name="LineageOS/android_hardware_qcom_wlan" />
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
-     <remove-project name="LineageOS/android_system_libhidl" />
-    <project path="system/libhidl" name="Packages-APPS/android_system_libhidl_LOS" remote="all" revision="lineage-20.0" />
 </manifest>
