@@ -27,6 +27,8 @@
     <project path="frameworks/base" name="onclite-lineage/android_frameworks_base" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="onclite-lineage/android_vendor_lineage" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+    <project path="packages/apps/Trebuchet" name="onclite-lineage/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_system_core" />
     <project path="system/core" name="onclite-lineage/android_system_core" remote="all" revision="lineage-19.1" />
     <project path="packages/apps/RepainterServicePriv" name="onclite-lineage/android_packages_apps_RepainterServicePriv" remote="all" revision="main" />
