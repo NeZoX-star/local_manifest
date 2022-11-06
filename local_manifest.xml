@@ -9,7 +9,7 @@
     <!-- Sync trees -->
     <project path="device/xiaomi/onclite" name="Sensei-Developer/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="vendor/xiaomi/onclite" name="Sensei-Developer/vendor" remote="all" revision="lineage-19.1" />
-    <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
+    <project path="kernel/xiaomi/onclite" name="Packages-APPS/android_kernel_xiaomi_onclite" remote="all" revision="test" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
     <!-- HALs -->
@@ -21,4 +21,13 @@
     <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="all" revision="lineage-19.1-caf-msm8996" />
     <remove-project name="LineageOS/android_hardware_qcom_wlan" />
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
+     
+     <!-- Extra -->
+    <remove-project name="LineageOS/android_frameworks_base" />
+    <project path="frameworks/base" name="onclite-lineage/android_frameworks_base" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="onclite-lineage/android_vendor_lineage" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_system_core" />
+    <project path="system/core" name="onclite-lineage/android_system_core" remote="all" revision="lineage-19.1" />
+    <project path="packages/apps/RepainterServicePriv" name="onclite-lineage/android_packages_apps_RepainterServicePriv" remote="all" revision="main" />
 </manifest>
