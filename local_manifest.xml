@@ -5,14 +5,10 @@
     <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" /> 
-
-<remote name="ab"
-          fetch="https://gitlab.com/"
-          clone-depth="1" /> 
     
     <!-- Sync trees -->
     <project path="device/xiaomi/onclite" name="Sensei-Developer/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
-    <project path="vendor/xiaomi/onclite" name="The Muppets/proprietary_vendor_xiaomi/onclite" remote="ab" revision="lineage-19.1" />
+    <project path="vendor/xiaomi/onclite" name="Sensei-Developer/vendor" remote="all" revision="lineage-19.1" />
     <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
