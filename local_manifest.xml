@@ -8,7 +8,7 @@
 
     
     <!-- Sync trees -->
-    <project path="device/xiaomi/onclite" name="onclite-lineage/device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
+    <project path="device/xiaomi/onclite" name="Sensei-Developer/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="vendor/xiaomi/onclite" name="onclite-lineage/vendor_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
