@@ -5,13 +5,16 @@
     <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" /> 
-
+    
+      <!-- (Clang 2.0) -->
+        <remote name="ImSurajxD"
+        fetch="https://gitlab.com/ImSurajxD" />
     
     <!-- Sync trees -->
     <project path="device/xiaomi/onclite" name="Sensei-Developer/device_xiaomi_onclite-1" remote="all" revision="pe" />
     <project path="vendor/xiaomi/onclite" name="ProjectBlaze-Devices/vendor_xiaomi_onclite" remote="all" revision="13" />
     <project path="kernel/xiaomi/onclite" name="Redmi-7-Trees/android_kernel_xiaomi_onclite" remote="all" revision="lineage-19.1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="all" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
     
     <!-- HALs -->
     <remove-project name="hardware_qcom-caf_msm8996_audio" />
