@@ -28,4 +28,6 @@
     <remove-project name="LineageOS/android_frameworks_base" />
     <project path="frameworks/base" name="onclite-lineage/android_frameworks_base" remote="all" revision="lineage-19.1" />
     <project path="vendor/custom-preference" name="onclite-lineage/vendor_custom-preference" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="onclite-lineage/android_packages_apps_Settings" remote="all" revision="lineage-19.1" />
 </manifest>
