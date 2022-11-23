@@ -26,8 +26,12 @@
     <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
     <project path="packages/apps/Trebuchet" name="onclite-lineage/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_frameworks_base" />
-    <project path="frameworks/base" name="onclite-lineage/android_frameworks_base" remote="all" revision="lineage-19.1" />
+    <project path="frameworks/base" name="Sensei-Developer/android_frameworks_base" remote="all" revision="lineage-19.1" />
     <project path="vendor/support" name="Packages-APPS/android_vendor_support" remote="all" revision="12" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="onclite-lineage/android_packages_apps_Settings" remote="all" revision="lineage-19.1" />
+    <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_build" />
+    <project path="build/make" name="ExodusOS/android_build" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" remote="all" revision="lineage-19.1" />
 </manifest>
