@@ -5,6 +5,10 @@
     <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" /> 
+
+    <remote name="ab"
+          fetch="https://gitlab.com/"
+          clone-depth="1" /> 
     
     <!-- Sync trees -->
     <project path="device/xiaomi/onclite" name="Sensei-Developer/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
@@ -30,4 +34,5 @@
     <project path="vendor/support" name="onclite-lineage/android_vendor_support" remote="all" revision="12" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="onclite-lineage/android_packages_apps_Settings" remote="all" revision="lineage-19.1" />
+    <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="ab" revision="sigma" />
 </manifest>
