@@ -34,5 +34,5 @@
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_packages_overlays_Lineage" />
-    <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus
+    <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus />
 </manifest>
