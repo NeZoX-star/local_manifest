@@ -33,7 +33,7 @@
     <project path="vendor/lineage" name="ExodusOS/android_vendor_exodus" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_packages_overlays_Lineage" />
     <project path="packages/overlays/Lineage" name="ExodusOS/android_packages_overlays_exodus" remote="all" revision="lineage-19.1" />
-    <project path="vendor/support" name="ExodusOS/vendor_custom_preference" remote="all" revision="lineage-19.1" />
+    <project path="vendor/support" name="ExodusOS/android_vendor_custom_preference" remote="all" revision="lineage-19.1" />
     <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="all" revision="main" />
      <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" remote="all" revision="lineage-19.1" />
 </manifest>
