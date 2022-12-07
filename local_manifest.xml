@@ -26,7 +26,7 @@
     <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
     <project path="packages/apps/Trebuchet" name="onclite-lineage/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_frameworks_base" />
-    <project path="frameworks/base" name="ExodusOS/android_frameworks_base" remote="all" revision="TEST" />
+    <project path="frameworks/base" name="ExodusOS/android_frameworks_base" remote="all" revision="BACKUP2" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="ExodusOS/android_packages_apps_Settings" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_vendor_lineage" />
@@ -36,4 +36,6 @@
     <project path="vendor/support" name="ExodusOS/android_vendor_custom_preference" remote="all" revision="lineage-19.1" />
     <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="all" revision="main" />
      <project path="packages/apps/ExodusSettings" name="ExodusOS/android_packages_apps_ExodusSettings" remote="all" revision="TEST" />
+     <remove-project name="LineageOS/android_packages_services_Telecomm" />
+    <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" remote="all" revision="lineage-19.1" />
 </manifest>
