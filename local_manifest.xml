@@ -24,7 +24,7 @@
      
      <!-- Extra -->
      <remove-project name="LineageOS/android_lineage-sdk" />
-    <project path="LineageOS/android_lineage-sdk" name="LineageOS/android_lineage-sdk" remote="all" revision="lineage-19.1" />
+    <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
     <project path="packages/apps/Trebuchet" name="onclite-lineage/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_frameworks_base" />
