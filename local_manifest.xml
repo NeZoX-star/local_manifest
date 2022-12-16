@@ -23,8 +23,6 @@
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
      
      <!-- Extra -->
-     <remove-project name="LineageOS/android_frameworks_native" />
-    <project path="frameworks/native" name="ExodusOS/android_frameworks_native" remote="all" revision="lineage-19.1" />
      <project path="vendor/RomOTA" name="ExodusOS/exodus_vendor_RomOTA" remote="all" revision="squirrel" />
      <remove-project name="LineageOS/android_packages_apps_Updater" />
     <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" remote="all" revision="lineage-19.1" />
