@@ -23,6 +23,8 @@
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
      
      <!-- Extra -->
+     <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+     <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1" />
      <project path="vendor/pixel-framework" name="ExodusOS/android_external_pixel-framework" remote="all" revision="lineage-19.1" />
       <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
      <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" remote="all" revision="lineage-19.1" />
