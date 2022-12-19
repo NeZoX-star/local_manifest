@@ -23,6 +23,11 @@
     <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
      
      <!-- Extra -->
+     <project path="vendor/pixel-framework" name="ExodusOS/android_external_pixel-framework" remote="all" revision="lineage-19.1" />
+      <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
+     <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" remote="all" revision="lineage-19.1" />
+     <remove-project name="LineageOS/android_packages_apps_Updater" />
+    <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" remote="all" revision="lineage-19.1" />
      <project path="vendor/RomOTA" name="ExodusOS/exodus_vendor_RomOTA" remote="all" revision="squirrel" />
      <remove-project name="LineageOS/android_packages_apps_Updater" />
     <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" remote="all" revision="lineage-19.1" />
