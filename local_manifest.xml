@@ -18,7 +18,6 @@
     <project path="hardware/google/pixel" name="Sensei-Developer/android_hardware_google_pixel" remote="all" revision="lineage-19.1" />
 
     <!-- Extra -->
-     <project path="vendor/pixel-framework" name="ExodusOS/android_external_pixel-framework" remote="all" revision="lineage-19.1" />
       <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
      <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" remote="all" revision="lineage-19.1" />
      <project path="vendor/RomOTA" name="ExodusOS/exodus_vendor_RomOTA" remote="all" revision="squirrel" />
