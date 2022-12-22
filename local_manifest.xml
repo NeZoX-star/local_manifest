@@ -31,8 +31,6 @@
     <project path="packages/apps/Updater" name="ExodusOS/android_packages_apps_Updater" remote="all" revision="lineage-19.1" />
      <remove-project name="LineageOS/android_lineage-sdk" />
     <project path="lineage-sdk" name="ExodusOS/android_exodus-sdk" remote="all" revision="lineage-19.1" />
-    <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-    <project path="packages/apps/Trebuchet" name="onclite-lineage/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_frameworks_base" />
     <project path="frameworks/base" name="ExodusOS/android_frameworks_base" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
