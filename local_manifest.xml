@@ -53,5 +53,5 @@
      <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
     <project path="packages/apps/ThemePicker" name="ExodusOS/android_packages_apps_ThemePicker" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_device_lineage_sepolicy" />
-    <project path="device/lineage/sepolicy" name="ExodusOS/android_device_lineage_sepolicy"" remote="all" revision="lineage-19.1" />
+    <project path="device/lineage/sepolicy" name="ExodusOS/android_device_lineage_sepolicy" remote="all" revision="lineage-19.1" />
 </manifest>
