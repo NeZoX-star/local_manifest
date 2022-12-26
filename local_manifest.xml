@@ -46,4 +46,12 @@
     <project path="packages/services/Telecomm" name="ExodusOS/android_packages_services_Telecomm" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
     <project path="packages/apps/Trebuchet" name="ExodusOS/android_packages_apps_Trebuchet" remote="all" revision="lineage-19.1_old" />
+     <remove-project name="platform/frameworks/libs/net" />
+    <project path="frameworks/libs/net" name="ExodusOS/android_frameworks_libs_net" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_packages_modules_Connectivity" />
+    <project path="packages/modules/Connectivity" name="ExodusOS/android_packages_modules_Connectivity" remote="all" revision="lineage-19.1" />
+     <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+    <project path="packages/apps/ThemePicke" name="ExodusOS/android_packages_apps_ThemePicker" remote="all" revision="lineage-19.1" />
+    <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+    <project path="device/lineage/sepolicy" name="ExodusOS/android_device_lineage_sepolicy"" remote="all" revision="lineage-19.1" />
 </manifest>
