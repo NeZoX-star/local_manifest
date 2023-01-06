@@ -7,11 +7,9 @@
           clone-depth="1" /> 
     
     <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="ExodusOS/android_device_xiaomi_lavender" remote="all" revision="lineage-19.1" />
-    <project path="device/xiaomi/sdm660-common" name="ExodusOS/android_device_xiaomi_sdm660-common" remote="all" revision="lineage-19.1" />
-    <project path="vendor/xiaomi/lavender" name="ExodusOS/android_vendor_xiaomi_lavender" remote="all" revision="lineage-19.1" />
-    <project path="vendor/xiaomi/sdm660-common" name="iKeramat/proprietary_vendor_xiaomi_sdm660-common" remote="all" revision="lineage-19.1" />
-    <project path="kernel/xiaomi/sdm660" name="ExodusOS/android_kernel_xiaomi_sdm660" remote="all" revision="lineage-19.1" />
+    <project path="device/xiaomi/lavender" name="ExodusOS/android_device_xiaomi_lavendeк_12" remote="all" revision="lineage-19.1" />
+    <project path="vendor/xiaomi/lavender" name="ExodusOS/android_vendor_xiaomi_lavender_12" remote="all" revision="lineage-19.1" />
+    <project path="kernel/xiaomi/sdm660" name="projects-nexus/nexus_kernel_xiaomi_lavender" remote="all" revision="a12" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
     <!-- HALs -->
