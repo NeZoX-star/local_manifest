@@ -11,14 +11,4 @@
     <project path="vendor/xiaomi/onclite" name="Sensei-Developer/vendor" remote="all" revision="lineage-19.1" />
     <project path="kernel/xiaomi/onclite" name="Packages-APPS/android_kernel_xiaomi_onclite" remote="all" revision="test" />
     
-    <!-- HALs -->
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="all" revision="lineage-19.1-caf-msm8996" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="all" revision="lineage-19.1-caf-msm8996" />
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="all" revision="lineage-19.1-caf-msm8996" />
-    <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-    <project path="hardware/qcom-caf/wlan" name="bibarub/hardware_qcom_wlan" remote="all" revision="12.x" />
-   
 </manifest>
