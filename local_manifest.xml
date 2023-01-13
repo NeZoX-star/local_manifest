@@ -12,13 +12,7 @@
     <project path="kernel/xiaomi/spes" name="Jabiyeff/kernel_xiaomi_spes_header" remote="all" revision="12" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="arrow-11.0" />
     
-    <!-- HALs -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-19.1" />
-    <remove-project name="LineageOS/android_hardware_google_pixel" />
-    <project path="hardware/google/pixel" name="Sensei-Developer/android_hardware_google_pixel" remote="all" revision="lineage-19.1" />
-
     <!-- Extra -->
-     <project path="vendor/pixel-framework" name="ExodusOS/android_external_pixel-framework" remote="all" revision="lineage-19.1" />
       <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
      <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" remote="all" revision="lineage-19.1" />
      <project path="vendor/RomOTA" name="ExodusOS/exodus_vendor_RomOTA" remote="all" revision="squirrel" />
@@ -49,8 +43,6 @@
     <project path="packages/apps/ThemePicker" name="ExodusOS/android_packages_apps_ThemePicker" remote="all" revision="lineage-19.1" />
     <remove-project name="LineageOS/android_device_lineage_sepolicy" />
     <project path="device/lineage/sepolicy" name="ExodusOS/android_device_lineage_sepolicy" remote="all" revision="lineage-19.1" />
-     <remove-project name="LineageOS/android_bionic" />
-    <project path="bionic" name="ExodusOS/android_bionic" remote="all" revision="lineage-19.1" />
      <remove-project name="LineageOS/android_system_core" />
     <project path="system/core" name="ExodusOS/android_system_core" remote="all" revision="lineage-19.1" />
 </manifest>
