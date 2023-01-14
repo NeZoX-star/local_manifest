@@ -12,6 +12,8 @@
     <project path="kernel/xiaomi/onclite" name="Packages-APPS/android_kernel_xiaomi_onclite" remote="all" revision="test" />
      
      <!-- Extra -->
+     <remove-project name="LineageOS/android_build" />
+     <project path="build/make" name="ExodusOS/android_build" remote="all" revision="lineage-19.1" />
       <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
      <project path="packages/apps/Backgrounds" name="ExodusOS/android_packages_apps_Backgrounds" remote="all" revision="lineage-19.1" />
      <project path="vendor/RomOTA" name="ExodusOS/exodus_vendor_RomOTA" remote="all" revision="squirrel" />
