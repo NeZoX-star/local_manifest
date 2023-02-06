@@ -5,11 +5,7 @@
     <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" /> 
-    
-    <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender_LOS" remote="all" revision="12.1" />
-    <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender_LOS" remote="all" revision="12.1" />
-    <project path="kernel/xiaomi/lavender" name="PixelExperience-Devices/kernel_xiaomi_lavender" remote="all" revision="twelve" />
+ 
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="Prashant-1695/platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="typhoon" clone-depth="1" />
      
      <!-- Extra -->
