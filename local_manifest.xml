@@ -5,9 +5,6 @@
     <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" /> 
-     
-     <remote name="ImSurajxD"
-		   fetch="https://gitlab.com/ImSurajxD" />
     
     <!-- Sync trees -->
     <project path="device/xiaomi/lavender" name="Sensei-Developer/android_device_xiaomi_lavender" remote="all" revision="thirteen" />
@@ -15,7 +12,6 @@
     <project path="vendor/xiaomi/lavender" name="Sensei-Developer/android_vendor_xiaomi_lavender" remote="all" revision="thirteen" />
     <project path="vendor/xiaomi/sdm660-common" name="Sensei-Developer/android_vendor_xiaomi_sdm660-common" remote="all" revision="thirteen" />
     <project path="kernel/xiaomi/sdm660" name="Sensei-Developer/nexus_kernel_xiaomi_lavender" remote="all" revision="qti" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
         
      <!-- HALs -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-20" />
