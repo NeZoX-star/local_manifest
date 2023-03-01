@@ -13,10 +13,8 @@
           clone-depth="1" /> 
     
     <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="Sensei-Developer/android_device_xiaomi_lavender" remote="all" revision="thirteen" />
-    <project path="device/xiaomi/sdm660-common" name="Sensei-Developer/android_device_xiaomi_sdm660-common" remote="all" revision="thirteen" />
-    <project path="vendor/xiaomi/lavender" name="Sensei-Developer/android_vendor_xiaomi_lavender" remote="all" revision="thirteen" />
-    <project path="vendor/xiaomi/sdm660-common" name="Sensei-Developer/android_vendor_xiaomi_sdm660-common" remote="all" revision="thirteen" />
+    <project path="device/xiaomi/lavender" name="crdroidandroid/android_device_xiaomi_lavender" remote="all" revision="13.0" />
+    <project path="vendor/xiaomi/lavender" name="crdroidandroid/android_vendor_xiaomi_lavender" remote="all" revision="13.0" />
     <project path="kernel/xiaomi/sdm660" name="Sensei-Developer/nexus_kernel_xiaomi_lavender" remote="all" revision="qti" />
 
      <!-- Clang -->
@@ -26,8 +24,5 @@
 
 	<!-- GCC -->
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="salik" revision="master" clone-depth="1" />
-        
-     <!-- HALs -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-20" />
-   
+          
 </manifest>
