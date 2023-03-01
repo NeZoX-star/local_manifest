@@ -15,7 +15,7 @@
     <!-- Sync trees -->
     <project path="device/xiaomi/lavender" name="crdroidandroid/android_device_xiaomi_lavender" remote="all" revision="13.0" />
     <project path="vendor/xiaomi/lavender" name="crdroidandroid/android_vendor_xiaomi_lavender" remote="all" revision="13.0" />
-    <project path="kernel/xiaomi/sdm660" name="Sensei-Developer/nexus_kernel_xiaomi_lavender" remote="all" revision="qti" />
+    <project path="kernel/xiaomi/sdm660" name="Device-Tree-for-Redmi-Note-7-lavender/kernel_xiaomi_sdm660" remote="all" revision="thirteen" />
 
      <!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
