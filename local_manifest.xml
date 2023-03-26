@@ -10,8 +10,8 @@
     <remote name="clamg"
 	  fetch="https://gitlab.com/ImSurajxD" />
 
-    <remote name="all"
-          fetch="https://github.com/"
+    <remote name="salik"
+	  fetch="https://github.com/P-Salik" />
           clone-depth="1" /> 
     
      <!-- Sync trees -->
