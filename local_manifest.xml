@@ -11,7 +11,7 @@
 	  fetch="https://gitlab.com/ImSurajxD" />
 
     <remote name="salik"
-	  fetch="https://github.com/P-Salik" />
+	  fetch="https://github.com/P-Salik"
           clone-depth="1" /> 
     
      <!-- Sync trees -->
