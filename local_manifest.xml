@@ -5,6 +5,13 @@
 
     <remote name="all"
           fetch="https://github.com/"
+          clone-depth="1" />
+     
+    <remote name="clamg"
+	  fetch="https://gitlab.com/ImSurajxD" />
+
+    <remote name="all"
+          fetch="https://github.com/"
           clone-depth="1" /> 
     
      <!-- Sync trees -->
@@ -16,6 +23,13 @@
     <project path="packages/apps/Settings" name="ExodusOS-20-0/android_packages_apps_Settings" remote="all" revision="lineage-20.0" />
     <remove-project name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="ExodusOS-20-0/android_vendor_lineage" remote="all" revision="lineage-20.0" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="Prashant-1695/platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="typhoon" clone-depth="1" />
-        
+    
+    !-- Clang -->
+	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
+
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clamg" revision="master" clone-depth="1" />
+
+	<!-- GCC -->
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="salik" revision="master" clone-depth="1" />
+         
 </manifest>
