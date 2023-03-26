@@ -8,14 +8,14 @@
           clone-depth="1" /> 
     
      <!-- Sync trees -->
-    <project path="device/xiaomi/lavender" name="ExodusOS/device_xiaomi_lavender" remote="all" revision="twelve" />
-    <project path="device/xiaomi/sdm660-common" name="ExodusOS/device_xiaomi_sdm660-common" remote="all" revision="twelve" />
-    <project path="vendor/xiaomi/lavender" name="ExodusOS/vendor_xiaomi_lavender" remote="all" revision="twelve" />
-    <project path="vendor/xiaomi/sdm660-common" name="ExodusOS/vendor_xiaomi_sdm660-common" remote="all" revision="twelve" />
-    <project path="kernel/xiaomi/lavender" name="PixelExperience-Devices/kernel_xiaomi_lavender" remote="all" revision="twelve" />
-        
-     <!-- HALs -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="all" revision="lineage-19.1" />
+    <project path="device/xiaomi/lavender" name="ExodusOS-20-0/android_device_xiaomi_lavender" remote="all" revision="13.0" />
+    <project path="vendor/xiaomi/lavender" name="ExodusOS-20-0/android_vendor_xiaomi_lavender" remote="all" revision="13.0" />
+    <project path="kernel/xiaomi/lavender" name="PixelExperience-Devices/kernel_xiaomi_sdm660" remote="all" revision="thirteen" />
+     
+    <remove-project name="LineageOS/android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="ExodusOS-20-0/android_packages_apps_Settings" remote="all" revision="lineage-20.0" />
+    <remove-project name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="ExodusOS-20-0/android_vendor_lineage" remote="all" revision="lineage-20.0" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="Prashant-1695/platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="all" revision="typhoon" clone-depth="1" />
         
 </manifest>
