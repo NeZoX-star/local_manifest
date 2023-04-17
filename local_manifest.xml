@@ -17,7 +17,7 @@
      <!-- Sync trees -->
     <project path="device/xiaomi/lavender" name="ExodusOS-20-0/android_device_xiaomi_lavender" remote="all" revision="13.0" />
     <project path="vendor/xiaomi/lavender" name="ExodusOS-20-0/android_vendor_xiaomi_lavender" remote="all" revision="13.0" />
-    <project path="kernel/xiaomi/lavender" name="Sensei-Developer/kernel_xiaomi_lavender-2" remote="all" revision="12.1" />
+    <project path="kernel/xiaomi/lavender" name="Sensei-Developer/kernel_xiaomi_lavender-2" remote="all" revision="los" />
      
     <!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
